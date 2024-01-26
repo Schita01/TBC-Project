@@ -207,7 +207,7 @@ li a:hover {
 
 .technology-education {
     width: 100%;
-    background-image: url(/images/education-img.jpg);
+    background-image: url(../images/education-img.jpg);
     background-position: center;
     height: 352px;
     background-size: cover;
