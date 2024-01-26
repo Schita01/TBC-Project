@@ -1,3 +1,4 @@
+![alt text](screenshot.png)
 # TBC-Project
 თიბისი აკადემიის ლენდინგ ფეიჯი - დავალება. 
 
