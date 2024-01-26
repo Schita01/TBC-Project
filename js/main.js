@@ -43,47 +43,47 @@ let coursesCardsContainer = document.querySelector(".courses-container")
 
 const coursesObj = [
     {
-        img: "/images/ios.webp",
+        img: "./images/ios.webp",
         courseName: "iOS Development",
 
     },
     {
-        img: "/images/react.webp",
+        img: "./images/react.webp",
         courseName: "React",
 
     },
     {
-        img: "/images/python.webp",
+        img: "./images/python.webp",
         courseName: "Intro to Python",
 
     },
     {
-        img: "/images/Advanced-Python.webp",
+        img: "./images/Advanced-Python.webp",
         courseName: "Advanced Python",
 
     },
     {
-        img: "/images/Cybersecurity.webp",
+        img: "./images/Cybersecurity.webp",
         courseName: "Advanced Cybersecurity Course",
 
     },
     {
-        img: "/images/ToT.webp",
+        img: "./images/ToT.webp",
         courseName: "ToT - Training of Trainers",
 
     },
     {
-        img: "/images/Blockchain.webp",
+        img: "./images/Blockchain.webp",
         courseName: "Blockchain",
 
     },
     {
-        img: "/images/DevOps.webp",
+        img: "./images/DevOps.webp",
         courseName: "DevOps",
 
     },
     {
-        img: "/images/Information.webp",
+        img: "./images/Information.webp",
         courseName: "Information Security Governance",
     },
 ]
