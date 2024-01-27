@@ -34,7 +34,6 @@ arrowNext.addEventListener("click", () => {
 function changeGroup() {
     if (carouselTimeout) {
         clearTimeout(carouselTimeout)
-        console.log("ss")
     }
     document.querySelector(".carousel-group-active").classList.remove("carousel-group-active")
     groups[sliderIndex].classList.add("carousel-group-active")
@@ -58,7 +57,6 @@ function autoPlayCarousel() {
 
     if (carouselTimeout) {
         clearTimeout(carouselTimeout);
-        console.log("clear timeout");
     }
     carouselTimeout = setTimeout(() => {
         if (sliderIndex === groups.length - 1) {
