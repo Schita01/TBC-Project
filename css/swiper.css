@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 9px;
   opacity: 0;
   z-index: 1;
   transition: 0.7s ease-in-out;
@@ -127,8 +127,26 @@
 
 }
 
+@media only screen and (max-width: 1280px) {
+  .carousel-button-next {
+      display: none;
+  }
+
+  .carousel-button svg {
+      display: none;
+  }
+}
 
 @media screen and (max-width: 800px) {
+  
+  .carousel-button-next {
+    display: flex;
+  }
+
+  .carousel-button svg {
+    display: flex;
+  }
+
   .carousel-container {
     height: 400px;
     width: 80%;

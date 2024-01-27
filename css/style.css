@@ -124,11 +124,12 @@ li a:hover {
     align-items: center;
     gap: 80px;
     padding: 50px 10px;
-    transition: color 0.4s ease 0s; 
 }
 
-.nav-mobile .links {
+.nav-mobile li .links {
     color: var(--main-texts-color);
+    transition: color 0.4s ease 0s; 
+
 }
 
 
@@ -362,7 +363,7 @@ li a:hover {
 
 .partners-carousel {
     width: 100%;
-    padding: 40px 0px;
+    padding: 40px 0px 90px 0px;
     background-color: #2b2b2b;
 }
 
@@ -376,7 +377,8 @@ li a:hover {
 
 .partners-carousel-main-text {
     color: var(--main-texts-color);
-    font-size: 24px;
+    font-size: 27px;
+    margin-bottom: 40px
 }
 
 
@@ -573,6 +575,7 @@ footer {
 }
 
 /* Responsive styles*/
+
 
 @media only screen and (max-width: 1000px) {
 
@@ -779,6 +782,7 @@ footer {
     /* carousel */
     .partners-carousel-main-text {
         font-size: 18px;
+
     }
 
     /* accordion */

@@ -1,5 +1,4 @@
 const groups = document.querySelectorAll(".carousel-group")
-
 const arrowPrev = document.querySelector(".carousel-button-prev")
 const arrowNext = document.querySelector(".carousel-button-next")
 const dots = document.querySelectorAll(".carousel-pagination .dot")
@@ -48,7 +47,6 @@ function changeGroup() {
 function fadeTransitionEnd(e) {
     e.currentTarget.removeEventListener("transitionend", fadeTransitionEnd)
     autoPlayCarousel()
-    console.log("22")
 }
 
 
@@ -84,7 +82,6 @@ autoPlayCarousel()
 dots.forEach((dot, index) => {
     dot.addEventListener("click", (elem) => {
         sliderIndex = index
-        console.log(index)
         changeGroup()
     })
     
