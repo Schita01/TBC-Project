@@ -11,7 +11,7 @@
   *   ის ფაილები თავმოყრილია "js" ფოლდერში
 
 ## გამოყენებული ტექნოლოგიები
- * html
+ * ![](https://en.wikipedia.org/wiki/HTML#/media/File:HTML5_logo_and_wordmark.svg) html
  * css
  * js
 
