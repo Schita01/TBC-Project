@@ -124,9 +124,18 @@ li a:hover {
     align-items: center;
     gap: 80px;
     padding: 50px 10px;
-
-
+    transition: color 0.4s ease 0s; 
 }
+
+.nav-mobile .links {
+    color: var(--main-texts-color);
+}
+
+
+.nav-mobile .links:hover {
+    color: var(--active-color);
+}
+
 
 .hamburger-menu {
     display: none;
@@ -566,14 +575,6 @@ footer {
 /* Responsive styles*/
 
 @media only screen and (max-width: 1000px) {
-    /* navbar responsive */
-    .list {
-        display: none;
-    }
-
-    .hamburger-menu {
-        display: flex;
-    }
 
 
     /* cards responsive */
@@ -599,6 +600,15 @@ footer {
 
 
 @media only screen and (max-width: 790px) {
+
+        /* navbar responsive */
+    .list {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
 
     h1 {
         font-size: 40px; 

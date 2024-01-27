@@ -126,3 +126,32 @@
   transform: translate(-50%, -50%);
 
 }
+
+
+@media screen and (max-width: 800px) {
+  .carousel-container {
+    height: 400px;
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  .carousel-group {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .carousel-group img {
+    width: 150px;
+  }
+
+  .carousel-button {
+ 
+    --x-gap: 0px;
+  }
+
+  .carousel-button-next {
+    transform: translate(0, -50%) rotate(180deg);
+    right: var(--x-gap);
+  }
+}

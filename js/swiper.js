@@ -56,6 +56,12 @@ function fadeTransitionEnd(e) {
 
 
 function autoPlayCarousel() {
+
+
+    if (carouselTimeout) {
+        clearTimeout(carouselTimeout);
+        console.log("clear timeout");
+    }
     carouselTimeout = setTimeout(() => {
         if (sliderIndex === groups.length - 1) {
             sliderIndex = 0
